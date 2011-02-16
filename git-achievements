@@ -375,7 +375,7 @@ echo "
 </head>
 <body>
 " > index.html
-    echo "<h2>${user}'s Git Achievements</h2>" >> index.html
+    echo "<h1>${user}'s Git Achievements</h1>" >> index.html
 
     # STATS
     cat git-achievements | grep 'unlock_achievement ' | grep -v ' sed ' | grep -v '\${' | sed -e 's/.*unlock_achievement //g' -e 's/^"//g' -e 's/"$//g' -e 's/\$power/X/g' -e 's/\$count/X/g' -e 's/\$hooks/X/g' | sort | awk -F"\" \"" '{ print "<li><div class=\"title\">" $1 "</div><div class=\"info\">" $2 "</div></li>" }' | link_to_git_docs > all.html

@@ -20,7 +20,7 @@ a:active {
   text-decoration: none;
 }
 
-h2 {
+h1 {
   font-size: 1.4em;
   margin: 0;
   padding: 10px;
@@ -34,7 +34,7 @@ h2 {
   border-top: 2px solid #000;
   color: #fff;
 }
-h2:after {
+h1:after {
   content: 'achievements since 2011 - git since 2009';
   display: block;
   font-size: .6em;
