@@ -43,6 +43,14 @@ h1:after {
   padding-top: .25em;
 }
 
+h2 {
+  font-size: 1.2em;
+}
+h2:after {
+  content: '.';
+  display: inline;
+}
+
 ul {
     list-style-type: none;
     margin: 10px 0;
