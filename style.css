@@ -55,10 +55,10 @@ li {
     background: #f5f5f5;
     border: 3px solid #e8e8e8;
     padding: 15px;
+    margin-bottom: 1px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    margin-bottom: 1px;
 }
 
 li .title {
@@ -69,6 +69,18 @@ li .title {
 li .info {
     font-size: .9em;
 }
+
+pre {
+  margin: 15px 2px;
+  padding: 10px;
+  border: 2px solid #353535;
+  color: #00ff00;
+  background: #181818;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
 #locked {
   visibility: hidden;
 }
