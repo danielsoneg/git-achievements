@@ -34,8 +34,7 @@ h1 {
   border-top: 2px solid #000;
   color: #fff;
 }
-h1:after {
-  content: 'achievements since 2011 - git user #51,766';
+h1 span {
   display: block;
   font-size: .6em;
   font-weight: normal;
