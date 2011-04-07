@@ -10,11 +10,11 @@ body {
 }
 
 a:link, a:visited {
-	color: #0077cc;
+  color: #0077cc;
   text-decoration: underline;
 }
 a:hover, a:focus {
-	color: #0066cc;
+  color: #0066cc;
 }
 a:active {
   text-decoration: none;
@@ -35,7 +35,7 @@ h1 {
   color: #fff;
 }
 h1:after {
-  content: 'achievements since 2011 - git since 2009';
+  content: 'achievements since 2011 - git user #51,766';
   display: block;
   font-size: .6em;
   font-weight: normal;
