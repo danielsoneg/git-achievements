@@ -91,4 +91,5 @@ pre {
 
 #locked {
   visibility: hidden;
+  height: 0px;
 }
